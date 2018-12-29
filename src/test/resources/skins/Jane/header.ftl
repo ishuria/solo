@@ -67,10 +67,10 @@
            aria-label="${loginLabel}" class="tooltipped tooltipped__w">
             <i class="icon__login"></i>
         </a>
-        <a href="${servePath}/register"
-           aria-label="${registerLabel}" class="tooltipped tooltipped__w">
-            <i class="icon__register"></i>
-        </a>
+        <#--<a href="${servePath}/register"-->
+           <#--aria-label="${registerLabel}" class="tooltipped tooltipped__w">-->
+            <#--<i class="icon__register"></i>-->
+        <#--</a>-->
         </#if>
         <span onclick="Util.goTop()"
               aria-label="${putTopLabel}" class="tooltipped tooltipped__w">
